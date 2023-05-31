@@ -13,7 +13,7 @@ int main ()
     do
     {
         scanf("%d %d", &N, &P);
-    } while (N <= 0 && P <= 0);
+    } while (N <= 0 || P <= 0);
     
 
     //N fatorial
